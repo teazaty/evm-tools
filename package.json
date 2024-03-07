@@ -1,0 +1,20 @@
+{
+  "name": "evm-tools",
+  "version": "1.0.0",
+  "description": "Script for performing various tasks related to blockchain networks",
+  "type": "module",
+  "main": "tools.js",
+  "scripts": {
+    "start": "node tools.js"
+  },
+  "author": "zaty",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^5.5.3",
+    "ethereumjs-util": "^7.6.1",
+    "axios": "^0.24.0",
+    "moment": "^2.29.1",
+    "chalk": "^4.1.2",
+    "evm-tools": "https://github.com/teazaty/evm-tools"
+  }
+}
